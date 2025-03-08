@@ -9,7 +9,7 @@ print(numberDivide)
 
 # 3 -> For each temperature in the list of temperatures, print a warning about the risk of frost if the temperature is below 4°C.
 temperatures = [32, 12, 5, 3, 23, 1, -5]
-frostTemp = [temp if (temp >= 4) else "frost" for temp in temperatures]
+frostTemp = [temp if (temp >= 4) else "frost    " for temp in temperatures]
 print(frostTemp)
 
 
