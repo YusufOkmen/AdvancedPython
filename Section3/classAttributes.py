@@ -16,6 +16,7 @@ class Personels:
     def calculateAge(self):
         print(2025 - self.bDate)
 
+
     # instance method
     def allInfo(self):
         print(f"Personel's full info: Name {self.name}, Surname {self.surname}, birth date {self.bDate}")

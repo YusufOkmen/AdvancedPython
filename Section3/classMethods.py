@@ -1,3 +1,5 @@
+# Class methods can be used when the programmer wants to work with the whole class itself but not the instance of it. For example counting each person when a personels instance created is an example for this
+
 class Personels:
     raisePrise = 4000 
     personelCount = 0
