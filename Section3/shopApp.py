@@ -29,7 +29,7 @@ def main():
     print("     -Cart-      \n 1- Add Item\n 2- Display Items\n 3- Calculate Total\n 4- Remove Item\n 5- Clear All Cart\n 6- Apply Coupon\n")
 
     while(True):
-        query = int(input("Please select the process No. that you want to display: "))
+        query = int(input("Please select the process No. that you want to display (Type 7 for quit): "))
         
         if (query == 1):
             sCart.addItem()
@@ -43,8 +43,10 @@ def main():
             sCart.clearCart()
         elif (query == 6):
             print(sCart.applyCupon())
-        else:
+        elif (query == 7):
             break
+        else:
+            raise ValueError("Please enter a valid number.")
 
 class CartItem:
     discountRate = 0.8
@@ -87,14 +89,10 @@ class ShoppingCart:
             self.itemList.append(item3)
 
     def displayItems(self):
-        nameList = [item.name for item in self.itemList]
-        return nameList 
+        return [item.name for item in self.itemList] 
     
     def calculateCartTotal(self):
-        total = 0
-        for item in self.itemList:
-            total += item.calculateTotal()
-        return total
+        return sum([item.calculateTotal() for item in self.itemList])
 
     def removeItem(self):
         itemInput = input("Please enter the item that you want to remove: ")
@@ -122,6 +120,10 @@ class ShoppingCart:
             raise ValueError(f"Please enter a valid code")
         
 
+
+
+if __name__ == "__main__":
+    main()
 # Creating the cart 
 
 # sc.addItem(item3)
@@ -134,5 +136,3 @@ class ShoppingCart:
 # print(sc.calculateCartTotal())
 
 # print(sc.applyCupon("code3"))
-
-main()
