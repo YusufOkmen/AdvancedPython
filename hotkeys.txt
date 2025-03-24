@@ -1,0 +1,1 @@
+ctrl + shift + L = selects all the elements of the selected character in the file 
