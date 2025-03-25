@@ -1,0 +1,4 @@
+Id,ProductName,IsActive,Category,Rating
+1,Excalibur 870,True,Computer,4.5
+2,Excalibur 860,False,Computer,4.2
+3,Excalibur 850,True,Computer,4.1
