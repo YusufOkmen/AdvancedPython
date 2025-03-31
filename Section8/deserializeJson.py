@@ -1,9 +1,13 @@
+# From file to app
+
 import json
 
 # with open(r"C:\Users\yusuf\OneDrive\Masaüstü\Coding\AdvancedPython\Section8\product.json")as file:
 #     data = json.loads(file)
 
-info = """
+
+#json string
+info = """ 
 {
     "id": 1,
     "title": "Excalibur G879",

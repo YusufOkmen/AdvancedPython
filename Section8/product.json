@@ -1,8 +1,1 @@
-{
-    "id": 1,
-    "title": "Excalibur G879",
-    "price": 100000,
-    "rating": 4.9,
-    "category": "Computer",
-    "colors": ["Black", "Gray"]
-}   
+{"id": 12, "title": "Excalibur G879", "price": 100000, "rating": 4.9, "category": "Computer", "colors": ["Black", "Gray"]}
