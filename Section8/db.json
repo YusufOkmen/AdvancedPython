@@ -1,0 +1,30 @@
+{
+  "users": {
+    "yusufokmen": {
+      "firstname": "Yusuf",
+      "lastName": "Ãƒâ€“kmen"
+    },
+    "abdullahokmen": {
+      "firstName": "Abdullah",
+      "lastName": "Ãƒâ€“kmen"
+    },
+    "elifokmen": {
+      "firstName": "Elif",
+      "lastName": "Ökmen"
+    }
+  },
+  "products": {
+    "1": {
+      "title": "Macbook Air",
+      "price": 20000
+    },
+    "2": {
+      "title": "Samsung S25",
+      "price": 10000
+    },
+    "3": {
+      "title": "Redmi Note8",
+      "price": 5000
+    }
+  }
+}

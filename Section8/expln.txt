@@ -1,3 +1,5 @@
 json.dump = In Python, json.dump() is used to serialize (convert) a Python object into a JSON-formatted string and write it directly to a file. It is part of the json module.
 
 json.load = In Python, json.load() is used to deserialize (convert) JSON data from a file into a Python object. It is part of the json module.
+
+JSON files stores datas as string because a txt data can be understand by every language.

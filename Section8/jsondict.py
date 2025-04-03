@@ -64,11 +64,14 @@ products.update({
     "colors": [
       "White",
       "Gray"
-    ]
+    ]   
   }
 })
 
-products.pop("4")
+
+# Removing a item from the products
+# products.pop("4")
 
 with open(r"C:\Users\yusuf\OneDrive\Masaüstü\Coding\AdvancedPython\Section8\products.json", "w", encoding="utf-8") as file:
     json.dump(products, file, ensure_ascii=False, indent=2)
+
