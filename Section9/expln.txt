@@ -7,3 +7,7 @@ HTTP Post
 - Bilgi göndermek için kullanılır. (Siteye kayır olmak)
 - Bilgi body ile gönderilir.
 - Server'a etkisi vardır.
+
+Query String:
+- URL'nin sonuna gelen key ve value değerleridir.
+

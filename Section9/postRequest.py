@@ -10,3 +10,4 @@ result = sending.text
 result = sending.json()
 
 print(result)
+    
