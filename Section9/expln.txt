@@ -1,0 +1,9 @@
+HTTP Get
+- Bilgi talebi için kullanılır.
+- Query string ile kullanılır. (header)
+- Server'a etkisi yoktur.
+
+HTTP Post
+- Bilgi göndermek için kullanılır. (Siteye kayır olmak)
+- Bilgi body ile gönderilir.
+- Server'a etkisi vardır.
