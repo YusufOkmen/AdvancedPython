@@ -26,5 +26,3 @@ with open("quotes.csv", "w", encoding="utf-8") as file:
         sentence = quote.find(class_="text").string
         
         csvWriter.writerow([authors, sentence, aList])
-
-print(aList)
