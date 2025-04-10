@@ -14,10 +14,10 @@ serverSocket.listen()
 while True:
     clientSocket, clientAdress = serverSocket.accept()
 
-    print(f"Bağlantı yapıldı: {clientAdress}")
+    print(f"Connection successful: {clientAdress}")
     print(clientSocket, clientAdress)
 
-    clientSocket.send("Merhaba".encode("utf-8"))
+    clientSocket.send("Hello".encode("utf-8"))
 
     serverSocket.close()
     break
