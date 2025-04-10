@@ -1,3 +1,5 @@
+# We use cashing we deal with large projects and big data sets. The return process's efficiency will increase.
+
 import mysql.connector
 from cachetools import cached, TTLCache
 import time

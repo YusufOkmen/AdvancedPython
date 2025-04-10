@@ -1,0 +1,8 @@
+We use cashing we deal with large projects and big data sets. The return process's efficiency will increase.
+memoryCache.py
+
+Port Adress
+- All applications in the computer have their own port for communication.
+
+TCP
+- The rules of data communication between devices.
