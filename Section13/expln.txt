@@ -1,3 +1,13 @@
 multitasking = eşzamanlı
 
 If we want to start multiple functions at the same time we use multitasking
+
+
+
+Asenkron Programlama:
+- Asenkron programlamayı anlamak için önce senkron programlamanın bir kusurunu öğrenmemiz gerekir. Örneğin bir veri tabanından veri çekme talebi gönderirken. Gönderdiğimiz talebin cevaplanması ve bize geri veri gönderme aşaması bekleme süresi olarak kabul edilebilir mi? Bu örnek senkron programlamanın zaman kaybı problemidir. 
+
+Diyelimki bir database den veri çekeceğiz gönderdiğimiz requestin bize dönüş süresi yani işlemcinin boşta kalma süresi 1 sn. Eğer senkron bir şekilde program çalıştırırsak aradaki 1 sn ziyan olur. Ancak asenkron bir program çalıştırırsak ve sleep(1) yazarsak. oradaki bir saniyeyi değerlendirir. Doğru mudur? Gibi düşünülebilir. 
+
+- I/O (Input/Output) işlemleri, bilgisayarların dış dünyayla veri alışverişi yaptığı işlemlerdir. Bu işlemler genellikle veri okuma ve yazma süreçlerini içerir.
+
