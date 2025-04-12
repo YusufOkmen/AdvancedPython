@@ -1,0 +1,3 @@
+multitasking = eşzamanlı
+
+If we want to start multiple functions at the same time we use multitasking
