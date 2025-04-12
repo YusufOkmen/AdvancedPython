@@ -15,9 +15,6 @@ numList = [3, 4, 6, 8, 12]
 
 t = time.time()
 
-# calculateSquare(numList)
-# calculateCube(numList)
-
 t1 = threading.Thread(target=calculateSquare, args=(numList,))
 t2 = threading.Thread(target=calculateCube, args=(numList,))
 
