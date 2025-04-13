@@ -9,5 +9,7 @@ Asenkron Programlama:
 
 Diyelimki bir database den veri çekeceğiz gönderdiğimiz requestin bize dönüş süresi yani işlemcinin boşta kalma süresi 1 sn. Eğer senkron bir şekilde program çalıştırırsak aradaki 1 sn ziyan olur. Ancak asenkron bir program çalıştırırsak ve sleep(1) yazarsak. oradaki bir saniyeyi değerlendirir. Doğru mudur? Gibi düşünülebilir. 
 
+they may not run literally at the same time on a single core, but they can switch between tasks efficiently
+
 - I/O (Input/Output) işlemleri, bilgisayarların dış dünyayla veri alışverişi yaptığı işlemlerdir. Bu işlemler genellikle veri okuma ve yazma süreçlerini içerir.
 
